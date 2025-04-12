@@ -471,13 +471,14 @@ body {
 }
 
 .social-icons a {
-    color: white;
+    color: var(--bubblegum-blue);
     font-size: 1.5rem;
-    transition: opacity 0.3s ease;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    opacity: 0.8;
+    color: var(--sunny-yellow);
 }
 
 @media (max-width: 768px) {
